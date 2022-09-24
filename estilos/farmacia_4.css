@@ -1,0 +1,217 @@
+body{ 
+	background-color:cadetblue;
+	
+}
+*{
+	margin:0;
+	padding:o;
+	box-sizing:border-box;
+}
+#menu{
+	background-color:white;
+	grid-column-start:1;
+	grid-column-end:span 5;
+	grid-row-start:2;
+	grid-row-end:3;
+}
+#menu ul{
+	display:flex;
+	list-style:none;
+	justify-content:space-arround;
+	align-items:center;
+	height:100%;
+	background-color:red;
+	width:100%;
+	height:40px;
+	display:flex;
+	justify-content:space-evenly;
+	align-items:center;
+	
+	
+}
+#conteudoprincipal{
+	background-color:lightcyan;
+	grid-column-start:2;
+	grid-column-end:5;
+	font-size:9px;
+	
+}
+.site{
+	background-color:white;
+	display:grid;
+	grid-template-columns:5% 30% 30% 30% 5%;
+	grid-template-rows:120px 50px auto auto 100px;
+}
+.site img{
+	max-width:100%;
+}
+#topo{
+	background-color:red;
+	grid-column-start:1;
+	grid-column-end:6;
+	grid-row-start:1;
+	grid-row-end:2;
+	width:100%;
+	height:100%;
+}
+#barralateral{
+	background-color:cornflowerblue;
+	grid-column-start:4;
+	grid-column-end:5;
+	grid-row-start:4;
+	grid-row-end:5;
+	margin:10px;
+}
+#conteudo1{
+	background-color:lightcyan;
+	grid-column:2/5;
+	grid-row:4/5;
+	font-size:9px;
+	height:100%;
+	display:flex;
+	flex-wrap:wrap;
+}
+#conteudo1 div{
+	background-color:lightcyan;
+	grid-column:3/5;
+	grid-row:4/5;
+	flex:1 1 400px;
+	max-width:900px;
+	border:1px solid black;
+	margin:10px;
+}
+#conteudo2{
+	background-color:cornflowerblue;
+	grid-column:3/4;
+	grid-row:4/5;
+	margin:10px;
+}
+#rodape{
+	background-color:red;
+	grid-column:1/6;
+	grid-row:5/6;
+	
+}
+h1{
+	text-align:left;
+	font-family: 'Fredericka the Great', cursive;
+	color:dodgerblue;
+	font-size:100px;
+	position:relative;
+	bottom:150px;
+}
+img{
+	width:100px;
+	height:100px;
+}
+#nuk{
+	width:100%;
+	height:400px;
+}
+a{
+	color:Navy;
+}
+u{
+	color:white
+}
+#pesquisa{
+    text-align:center;
+	color:#2929BC;
+	font-size:20px;
+	position:relative;
+	bottom:55%;
+	right:10%;
+}
+#log{
+	color:black;
+	font-family:cursive;
+}
+#login{
+	position:relative;
+	left:82%;
+	bottom:80%;
+	
+}
+#loga{
+	height:40px;
+	width:40px;
+	position:relative;
+	left:90%;
+	bottom:100%
+	
+}
+
+#logo{
+	width:340px;
+	position:relative;
+	left:1%;
+}
+#lupa{
+	width:20px;
+	height:35px;
+	
+}
+#procura{
+	width:350px;
+	height:50px;
+}
+#instagram{
+	width:50px;
+	height:50px;
+	text-align:center;
+	position: relative;
+	left:800px;
+}
+#sabonete{
+	width:300px;
+	height:400px;
+}
+#facebook{
+	width:50px;
+	height:50px;
+	text-align:center;
+	position: relative;
+	left:850px;
+}
+#img1{
+	width:90%;
+	height:90%;
+}
+#img2{
+	width:90%;
+	height:90%;
+}
+#img3{
+	width:90%;
+	height:90%;
+}
+#img4{
+	width:90%;
+	height:90%;
+}
+#img5{
+	width:90%;
+	height:90%;
+}
+#img6{
+	width:90%;
+	height:90%;
+}
+#img7{
+	width:90%;
+	height:90%;
+}
+#img8{
+	width:90%;
+	height:90%;
+}
+#img9{
+	width:90%;
+	height:90%;
+}
+#pague{
+	width:340px;
+}
+label{
+	font-size:40px;
+}

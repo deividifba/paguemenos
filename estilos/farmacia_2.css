@@ -1,0 +1,142 @@
+body{
+	background-color:cadetblue;
+}
+*{
+	margin:0;
+	padding:o;
+	box-sizing:border-box;
+}
+#menu{
+	background-color:darkgray;
+	grid-column-start:1;
+	grid-column-end:span 5;/*utilizando a palavra chave span iremos informar que o elemento irá ocupar uma determinada quantidade de colunas*/
+	grid-row-start:2;
+	grid-row-end:3;
+}
+#menu ul{
+	display:flex;
+	list-style:none;
+	justify-content:space-arround;
+	align-items:center;
+	height:100%;
+	width:100%;
+	height:40px;
+	display:flex;
+	justify-content:space-evenly;
+	align-items:center;
+	
+}
+#conteudoprincipal{
+	background-color:white;
+	grid-column-start:2;
+	grid-column-end:5;
+	grid-row-start:3;
+	grid-row-end:4;
+}
+.site{
+	background-color:darkgray;
+	display:grid;/*display grid vai habilitar a possibilidade de organizar os elementos internos de um container através de duas dimensões, linhas e colunas*/
+	grid-template-columns:5% 30% 30% 30% 5%;/*esta propriedade irá informar a quantidade e tamanho das colunas em que o grid será organizado*/
+	grid-template-rows:120px 50px auto auto 100px;
+}
+.site img{
+	max-width:100%;
+}
+#topo{
+	background-color:darkgray;
+	grid-column-start:1;
+	grid-column-end:6;
+	grid-row-start:1;
+	grid-row-end:2;
+	width:100%;
+	height:100px;
+}
+#conteudo1{
+	background-color:white;
+	grid-column:2/5;
+	grid-row:4/5;
+}
+#rodape{
+	background-color:lightgrey;
+	grid-column:1/6;
+	grid-row:5/6;
+}
+h1{
+	text-align:center;
+}
+img{
+	width:100px;
+	height:100px;
+}
+a{
+	color:Navy;
+}
+#pesquisa{
+    text-align:center;
+	color:#2929BC;
+	font-size:20px;
+	position:relative;
+	bottom:80%;
+	right:5%;
+}
+#lupa{
+	width:20px;
+	height:35px;
+	
+}
+#loga{
+	height:40px;
+	width:40px;
+	position:relative;
+	left:90%;
+	bottom:160%;
+	
+}
+#login{
+	position:relative;
+	left:82%;
+	bottom:120%;
+	
+}
+#log{
+	color:black;
+	font-family:cursive;
+}
+#logo{
+	width:340px;
+	position:relative;
+	left:1%;
+}
+#procura{
+	width:350px;
+	height:50px;
+}
+#loja{
+	width:50%;
+	height:300px;
+	position:relative;
+	left:25%;
+}
+#loja2{
+	width:50%;
+	height:300px;
+	position:relative;
+	left:25%;
+}
+#facebook{
+	width:50px;
+	height:50px;
+	text-align:center;
+	position: relative;
+	left:850px;
+}
+#instagram{
+	width:50px;
+	height:50px;
+	text-align:center;
+	position: relative;
+	left:800px;
+}
+#pague{
+	width:340px;
+}
